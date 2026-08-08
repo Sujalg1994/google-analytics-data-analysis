@@ -1,0 +1,24 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environment and credentials
+.env
+.env.*
+service-account*.json
+credentials*.json
+
+# GA4 exports and generated outputs
+data/*.csv
+data/*.parquet
+data/raw/
+data/processed/
+outputs/
+
+# BI and operating-system temporary files
+*.tmp
+~$*
+.DS_Store
+Thumbs.db
